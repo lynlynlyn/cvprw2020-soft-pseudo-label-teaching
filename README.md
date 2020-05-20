@@ -52,7 +52,8 @@ Pytorch 1.3
    ```bash
    python ./datasets/process.py 
    ```
-5. Train base models on miniImageNet. In order to reproduce the results of the paper, you need to train all backbones (ResNet10, ResNest101s1N, ResNest102s1N, ResNest102s2N) with four different data augmentation (DefaultAug, HardAug, DefaultAug+RandomGrayScale, HardAug+RandomGrayScale). Then name the last checkpoint in a specific way and move it to the `MODEL_DIR` folder. Or you can download our pre-trained models using https://drive.google.com/open?id=1qWP_iApavc35XK4q3uyAZS9h3_d2_ooc.
+5. Train base models on miniImageNet. In order to reproduce the results of the paper, you need to train all backbones (ResNet10, ResNest101s1N, ResNest102s1N, ResNest102s2N) with four different data augmentation (DefaultAug, HardAug, DefaultAug+RandomGrayScale, HardAug+RandomGrayScale). 
+Name the last checkpoint in a specific way and move it to the `MODEL_DIR` folder. Or you can download our pre-trained models using https://drive.google.com/open?id=1qWP_iApavc35XK4q3uyAZS9h3_d2_ooc.
 
     • *ResNet10 + DefaultAug, name last checkpoint ResNet10_399.tar*
 
