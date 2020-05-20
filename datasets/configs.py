@@ -1,0 +1,1 @@
+DATA_PATH = '/data/lyj123/CD-FSL-raw'  # change to your dataset path
