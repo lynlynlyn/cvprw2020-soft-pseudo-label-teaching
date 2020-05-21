@@ -1,4 +1,4 @@
-# Memorizing Boosting Learning for Cross-Domain Few-Shot Learning (CD-FSL)
+# Soft Pseudo-Label Teaching for Cross-Domain Few-shot Learning
 
 ## Datasets
 The following datasets are used for evaluation in this challenge:
@@ -75,19 +75,19 @@ Name the last checkpoint in a specific way and move it to the `MODEL_DIR` folder
 
 6. Test on different datasets (ISIC: 0, EuroSAT: 1, CropDiseases: 2, ChestX: 3).
 
-    • *Finetune “MBL-1Model” on the ISIC dataset*: 
+    • *Finetune “SPLT-1Model” on the ISIC dataset*: 
  
     ```bash
         python ./finetune.py --n_shot 5 --dataset_names 0 --model_list 0 --model_dir MODEL_DIR
     ```
 
-    • *Finetune “MBL-4Model” on the ChestX dataset*: 
+    • *Finetune “SPLT-4Model” on the ChestX dataset*: 
  
     ```bash
         python ./finetune.py --n_shot 5 --dataset_names 3 --model_list 0 1 2 3 --model_dir MODEL_DIR
     ```
    
-    • *Finetune “MBL-8Model” on the EuroSAT dataset*: 
+    • *Finetune “SPLT-8Model” on the EuroSAT dataset*: 
  
     ```bash
         python ./finetune.py --n_shot 5 --dataset_names 1 --model_list 0 1 2 3 4 5 6 7 --model_dir MODEL_DIR
