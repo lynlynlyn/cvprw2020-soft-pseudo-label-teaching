@@ -1,7 +1,7 @@
 # Soft Pseudo-Label Teaching for Cross-Domain Few-shot Learning
 
 ## Datasets
-The following datasets are used for evaluation in this challenge:
+The following datasets are used for evaluation in this challenge
 
 ### Source domain: 
 
