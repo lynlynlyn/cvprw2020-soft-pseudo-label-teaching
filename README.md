@@ -81,13 +81,13 @@ Name the last checkpoint in a specific way and move it to the `MODEL_DIR` folder
         python ./finetune.py --n_shot 5 --dataset_names 0 --model_list 0 --model_dir MODEL_DIR
     ```
 
-    • *Finetune “MBL-4Model” on the ChestX dataset (ISIC: 0, EuroSAT: 1, CropDiseases: 2, ChestX: 3)*: 
+    • *Finetune “MBL-4Model” on the ChestX dataset*: 
  
     ```bash
         python ./finetune.py --n_shot 5 --dataset_names 3 --model_list 0 1 2 3 --model_dir MODEL_DIR
     ```
    
-    • *Finetune “MBL-8Model” on the EuroSAT dataset (ISIC: 0, EuroSAT: 1, CropDiseases: 2, ChestX: 3)*: 
+    • *Finetune “MBL-8Model” on the EuroSAT dataset*: 
  
     ```bash
         python ./finetune.py --n_shot 5 --dataset_names 1 --model_list 0 1 2 3 4 5 6 7 --model_dir MODEL_DIR
